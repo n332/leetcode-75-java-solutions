@@ -11,7 +11,7 @@ You are given two strings word1 and word2. Merge the strings by adding letters i
 
 ## Time Complexity
 **while loop** => O(min(m,n)) *with 2 appends (constant time)*  
-**leftover** => O(|m-2|)  
+**leftover (if condition)** => O(|m-2|)  
 **total** => O(m+n)
 
 

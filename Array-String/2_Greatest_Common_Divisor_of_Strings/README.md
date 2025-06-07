@@ -13,5 +13,10 @@ Using Euclidean Algorithm to get the length of gcd
 
 - If a number divides both a and b, it must also divide the remainder of a % b.
 
+## Steps
+1- check if there is a pattern in the two strings  
+2- get the length of the gcd by Euclidean Algorithm  
+3- get the actual gcd with is str[0:gcdLenght]
+
 ## Time Complexity
 O(m+n)

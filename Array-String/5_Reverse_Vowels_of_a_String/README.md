@@ -10,7 +10,12 @@ The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower an
 # Notes
 ## Best practices
 
-Two-Pointer Approach (In-place Swap)
+Two-Pointer Approach (In-place Swap)  
+- loop:-
+    - move left forward
+    - move right backward
+    - if vowels found
+        - Swap left and right  
 
 ## Time Complexity
 O(n) 
